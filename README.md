@@ -1,30 +1,50 @@
-📄 FLOWPILOT AI & AEON MATRIX
-🧭 SYSTEM CONSTITUTION (V1 — CLEAN GOVERNANCE)
-🌐 1. Core Principle
-ระบบนี้ถูกออกแบบเพื่อ “ควบคุมความสัมพันธ์ของระบบ” มากกว่าการเพิ่มความซับซ้อนขององค์ประกอบ
-หลักการสำคัญ:
-Optimize relationships before components
-Govern interactions before complexity
-Preserve system stability before performance
-Ecosystem integrity > individual node performance
-🧠 2. System Purpose
-AEON MATRIX คือระบบปฏิบัติการเชิงโครงข่าย (Autonomous Operations Layer) ที่มีเป้าหมาย:
-รวมข้อมูล (Data Aggregation)
-วิเคราะห์สถานการณ์ (Operational Intelligence)
-แจ้งเตือนความเสี่ยง (Risk Awareness)
-สร้างรายงานอัตโนมัติ (Automated Reporting)
-🏗 3. Architecture Principles
-ระบบต้องถูกแยกเป็น 4 ชั้นหลัก:
-3.1 Data Layer
-Weather API
-Traffic API
-Stock / Inventory System
-3.2 Processing Layer
-Data normalization
-Aggregation engine
-3.3 Intelligence Layer
-AI summary
-anomaly detection
-3.4 Output Layer
-PDF report
-Dashboard API
+# Git Clean Safe
+
+A professional, safe utility to clean up untracked files in Git repositories with preview mode, logging, and advanced filtering options.
+
+## 🌟 Features
+
+- ✅ **Preview Mode** - See what will be deleted before confirming
+- ✅ **Logging** - Automatic logging with timestamps
+- ✅ **Dry-run** - Test cleanup without making changes
+- ✅ **Exclude Patterns** - Skip specific files/folders
+- ✅ **Ignore Files Support** - Clean files listed in .gitignore
+- ✅ **Color Output** - Beautiful, readable terminal output
+- ✅ **Error Handling** - Comprehensive validation and error messages
+- ✅ **Repository Info** - Shows current repo and branch
+- ✅ **Force Mode** - Skip confirmations for automation
+
+## 📋 Requirements
+
+- Bash 4.0+
+- Git 2.0+
+- Linux or macOS
+
+## 🚀 Quick Start
+
+```bash
+# Make script executable
+chmod +x scripts/git-clean-safe.sh
+
+# View help
+./scripts/git-clean-safe.sh --help
+
+# Preview what will be deleted
+./scripts/git-clean-safe.sh --dry-run
+
+# Clean up untracked files
+./scripts/git-clean-safe.sh
+
+# Clean with logging
+./scripts/git-clean-safe.sh --log
+```
+
+## 📖 Usage Guide
+
+For more details, see:
+- [Basic Usage](./docs/basic-usage.md)
+- [Advanced Usage](./docs/advanced-usage.md)
+
+## 📄 License
+
+MIT License - See LICENSE file for details
